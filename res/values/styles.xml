@@ -15,7 +15,7 @@
   ~ limitations under the License
   -->
 <resources>
-    <style name="DialtactsTheme" parent="Theme.AppCompat.Light">
+    <style name="DialtactsTheme" parent="Theme.DeviceDefault.Light">
         <item name="android:textColorPrimary">@color/dialtacts_primary_text_color</item>
         <item name="android:textColorSecondary">@color/dialtacts_secondary_text_color</item>
 
@@ -89,8 +89,6 @@
         </item>
             <!-- Favorites -->
         <item name="favorites_padding_bottom">?android:attr/actionBarSize</item>
-        <item name="android:colorPrimary">@color/dialer_theme_color</item>
-        <item name="android:colorPrimaryDark">@color/dialer_theme_color_dark</item>
         <item name="dialpad_key_button_touch_tint">@color/dialer_dialpad_touch_tint</item>
         <item name="android:colorControlActivated">@color/dialer_theme_color</item>
         <item name="android:colorButtonNormal">@color/dialer_theme_color</item>
